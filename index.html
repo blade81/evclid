@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/> -->
+    <title>Евклид</title>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#accordion" ).accordion();
+    } );
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container container-header">
+            <div class="header__container-first">
+                <div class="hamburger" id="hamburger">
+                    <!-- <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span> -->
+                </div>
+                <img src="img/logo1.png" alt="Логотип" class="header__logo">
+                <nav class="header__nav">
+                    <ul class="header__list header-list">
+                        <li class="header-list__item">
+                            <a href="#" class="header-list__link">О нас</a>
+                        </li>
+                        <li class="header-list__item">
+                            <a href="#" class="header-list__link">Проекты</a>
+                        </li>
+                        <li class="header-list__item">
+                            <a href="#" class="header-list__link">Этапы</a>
+                        </li>
+                        <li class="header-list__item">
+                            <a href="#" class="header-list__link">Отзывы</a>
+                        </li>
+                        <li class="header-list__item">
+                            <a href="#" class="header-list__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="submit" class="btn header__button">
+                    <!-- <img src="img/Search.svg" alt="Иконка" class="header__search"> -->
+                </button>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="header__container-second">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide swiper-slide-slide1">
+                    <h1 class="header__title">Проектные решения любой сложности</h1>
+                    <p class="header__description">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                    <button type="submit" class="header__btn btn">
+                        Заказать расчёт
+                    </button>
+                </div>
+                <div class="swiper-slide swiper-slide-slide2">
+                    <h1 class="header__title">Проектные решения любой сложности</h1>
+                    <p class="header__description">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                    <button type="submit" class="header__btn btn">
+                        Заказать расчёт
+                    </button>
+                </div>
+                <div class="swiper-slide swiper-slide-slide3">
+                    <h1 class="header__title">Проектные решения любой сложности</h1>
+                    <p class="header__description">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                    <button type="submit" class="header__btn btn">
+                        Заказать расчёт
+                    </button>
+                </div>
+                ...
+                </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+                <!-- <img src="img/low-angle-photo-of-balconies-2462015 1.jpg" alt="Картинка" class="header__img"> -->
+                <!-- <h1 class="header__title">Проектные решения любой сложности</h1>
+                <p class="header__description">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                <button type="submit" class="header__btn btn">
+                    Заказать расчёт
+                </button> -->
+            </div>
+        <section class="about">
+            <div class="container">
+                <h2 class="about__title">О нас</h2>
+                <p class="about__description">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип &nbsp;<!-- <span> -->&#9432;<!-- </span> --> будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.</p>
+                <div class="about-wrapper">
+                    <div class="about__container-first">
+                        <div class="container-first__content">
+                            <p class="container-first__description">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.</p>
+                            <button type="submit" class="about__btn btn">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                    <p class="container-first__description container-first-description">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.</p>
+                    <button type="submit" class="about__btn btn about-btn">
+                        Подробнее
+                    </button>
+                    <div class="about__container-second">
+                        <div class="container-second__item">
+                            <div class="container-second__icon-wrapper">
+                                <!-- <img src="img/Ellipse.svg" alt="Иконка" class="ellipse">
+                                <img src="img/package.svg" alt="Иконка" class="cube"> -->
+                                <div class="ellipse"></div>
+                                <div class="cube"></div>
+                            </div>
+                            <div class="container-second__content-wrapper">
+                                <h3 class="container-second-item__title">Консультация с широким активом</h3>
+                                <p class="container-second-item__description">А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.</p>
+                            </div>
+                        </div>
+                        <div class="container-second__item">
+                            <div class="container-second__icon-wrapper">
+                                <!-- <img src="img/Ellipse.svg" alt="Иконка" class="ellipse">
+                                <img src="img/settings.svg" alt="Иконка" class="gear"> -->
+                                <div class="ellipse"></div>
+                                <div class="gear"></div>
+                            </div>
+                            <div class="container-second__content-wrapper">
+                                <h3 class="container-second-item__title">В своём стремлении повысить</h3>
+                                <p class="container-second-item__description">Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-we-work">
+            <div class="container">
+                <h2 class="how-we-work__title">Как мы работаем</h2>
+                <nav>
+                    <ul class="how-we-work__list">
+                        <li class="how-we-work-list__item">
+                            <button type="button" class="how-we-work__link">1 шаг</button>
+                        </li>
+                        <li class="how-we-work-list__item">
+                            <button type="button" class="how-we-work__link">2 шаг</button>
+                        </li>
+                        <li class="how-we-work-list__item">
+                            <button type="button" class="how-we-work__link">3 шаг</button>
+                        </li>
+                        <li class="how-we-work-list__item">
+                            <button type="button" class="how-we-work__link">4 шаг</button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="how-we-work-wrapper">
+                    <div class="how-we-work__container-first">
+                        <h3 class="how-we-work-container-first__title">Проводим консультацию</h3>
+                        <p class="how-we-work-container-first__description">Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.</p>
+                        <div class="how-we-work-btn-wrapper">
+                            <a href="#" class="how-we-work-more__btn btn">
+                                Подробнее
+                            </a>
+                            <a href="#" class="how-we-work-contract__btn btn">
+                                Договор
+                            </a>
+                        </div>
+                    </div>
+                    <div class="how-we-work__container-second">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <h2 class="faq__title">Часто задаваемые вопросы</h2>
+                <div id="accordion" class="faq__list">
+                    <h3>
+                        <span class="faq-list__question">Из чего формируется конечная стоимость проекта?</span>
+                    </h3>
+                    <div>
+                        <p>
+                        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                        </p>
+                    </div>
+                    <h3>
+                        <span class="faq-list__question">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</span>
+                    </h3>
+                    <div>
+                        <p>
+                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                        suscipit faucibus urna.
+                        </p>
+                    </div>
+                    <h3>
+                        <span class="faq-list__question">Я выбираю между разными компаниями. В чём ваше отличие?</span>
+                    </h3>
+                    <div>
+                        <p>
+                        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                        ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                        lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                        </p>
+                        <ul>
+                            <li>List item one</li>
+                            <li>List item two</li>
+                            <li>List item three</li>
+                        </ul>
+                    </div>
+                    <h3>
+                        <span class="faq-list__question">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</span>
+                    </h3>
+                    <div>
+                        <p>
+                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                        mauris vel est.
+                        </p>
+                        <p>
+                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                        inceptos himenaeos.
+                        </p>
+                    </div>
+                    <h3>
+                        <span class="faq-list__question">Могу ли я вернуть деньги на каком-либо из этапов работ?</span>
+                    </h3>
+                    <div>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae maiores magni, dignissimos alias fugit sint tempore quis libero, natus mollitia maxime sunt. Necessitatibus, nulla magnam impedit incidunt soluta labore repellat!
+                        </p>
+                    </div>
+                </div>
+                <!-- <ul class="faq__list">
+                    <li class="faq-list__item">
+                        <p class="faq-list__question">Из чего формируется конечная стоимость проекта?</p>
+                        <img src="img/x.svg" alt="Иконка" class="faq-item__icon">
+                    </li>
+                    <li class="faq-list__item">    
+                        <p class="faq-list__question">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</p>
+                        <img src="img/x.svg" alt="Иконка" class="faq-item__icon">
+                    </li>
+                    <li class="faq-list__item">
+                        <p class="faq-list__question">Я выбираю между разными компаниями. В чём ваше отличие?</p>
+                        <img src="img/x.svg" alt="Иконка" class="faq-item__icon">
+                    </li>
+                    <li class="faq-list__item">
+                        <p class="faq-list__question">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</p>
+                        <img src="img/x.svg" alt="Иконка" class="faq-item__icon">
+                    </li>
+                    <li class="faq-list__item">
+                        <p class="faq-list__question">Могу ли я вернуть деньги на каком-либо из этапов работ?</p>
+                        <img src="img/x.svg" alt="Иконка" class="faq-item__icon">
+                    </li>
+                </ul> -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer__container-first">
+                    <img src="img/logo1-2.png" alt="Логотип" class="footer__logo">
+                    <nav class="footer__nav">
+                        <ul class="footer__list">
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-link">О нас</a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-link">Проекты</a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-link">Отзывы</a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-link">Договор оферты</a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-link">Договор подряда</a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-link">Конфиденциальность</a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-link">Партнёрское соглашение</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer-social-wrapper">
+                        <a href="#" class="footer-social-link">
+                            <img src="img/fb.svg" alt="Иконка" class="footer__social">
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <img src="img/vk.svg" alt="Иконка" class="footer__social">
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <img src="img/instagram.svg" alt="Иконка" class="footer__social">
+                        </a>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="footer__container-second">
+                    <h2 class="footer-container-second__title">Оставить заявку</h2>
+                    <form action="http://jsonplaceholder.typicode.com/posts" method="POST" class="footer__form">
+                        <input type="text" name="name" placeholder="Фамилия, имя и отчество*" class="footer-form__input" required>
+                        <input type="email" name="E-mail" placeholder="E-mail*" class="footer-form__input" required>
+                        <textarea name="message" placeholder="Сообщение" rows="6"  class="footer-form__input footer-form__textarea"></textarea>
+                        <!-- <textarea name="message" placeholder="Сообщение" rows="8"  class="footer-form__input footer-form__textarea-rows8"></textarea> -->
+                        <button type="submit" class="footer__btn btn">
+                            Отправить данные
+                        </button>
+                        <input type="checkbox" name="checkbox" class="footer-form__checkbox" required>
+                        <span class="footer-container-second__assent">Согласен на обработку данных</span>
+                    </form>
+                </div>
+                <div class="footer__container-third">
+                    <p class="footer-container-third__description">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="menu" class="menu">
+        <ul>
+            <li class="menu__link">
+                <a href="#" class="header-list__link">О нас</a>
+            </li>
+            <li class="menu__link">
+                <a href="#" class="header-list__link">Проекты</a>
+            </li>
+            <li class="menu__link">
+                <a href="#" class="header-list__link">Этапы</a>
+            </li>
+            <li class="menu__link">
+                <a href="#" class="header-list__link">Отзывы</a>
+            </li>
+            <li class="menu__link">
+                <a href="#" class="header-list__link">Контакты</a>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            /* direction: 'vertical', */
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                hide: true,
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+
+            effect: 'cube',
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
